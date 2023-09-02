@@ -22,23 +22,30 @@ public class FoodStand {
     public void delete(Food food) {
         // logger.trace("{}",food.getName());
         boolean deleteCheck = false;
-
+        boolean nameCheck = false;
+        // 이름은 같지만 가격이 다른 경우도 있을거라고 생각해서 조건문을 더 추가하였음
         for (int i = 0; i < foods.size(); i++) {
-            if (food.getName() == foods.get(i).getName()) {
-                logger.trace("delete");
+            nameCheck = food.getName() == foods.get(i).getName() ? true : false;
+            deleteCheck = food.getPrice() == foods.get(i).getPrice() ? nameCheck : false;
+
+            if (deleteCheck == true) {
                 foods.remove(i);
-                deleteCheck = true;
-                break; // 삭제를 한번만 하기 위해서 break문을 달음
+                logger.trace("delete check");
+                break;
             }
         }
-        if(deleteCheck == false){
+        // 이름과 가격이 서로 동일하지 않은 경우
+        if (deleteCheck == false && nameCheck == false) {
             throw new IllegalArgumentException("상품이 진열대에 없습니다.");
+        } else if (nameCheck == true && deleteCheck == false) { // 이름은 같지만 가격이 다른 경우
+            throw new IllegalArgumentException("상품과 가격이 서로 맞지 않습니다.");
         }
+
     }
 
-    public int amount(Food food){
-        int amountCnt =0;
-        for(Food food1 : foods){
+    public int amount(Food food) {
+        int amountCnt = 0;
+        for (Food food1 : foods) {
             amountCnt++;
         }
         return amountCnt;
