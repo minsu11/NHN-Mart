@@ -94,7 +94,7 @@ class CustomerTest {
         Basket basket = new Basket();
         BuyList buyList = new BuyList();
         FoodStand foodStand = new FoodStand();
-        foodStand.add(new Food("양파", 1000));
+        foodStand.add(new Food("양파", 4000));
         buyList.add("양파 1");
         Customer customer = new Customer(buyList);
         customer.bring(basket);
