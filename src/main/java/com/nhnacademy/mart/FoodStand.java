@@ -14,7 +14,7 @@ public class FoodStand {
 
     // TODO add 메서드 구현
     public void add(Food food) {
-        foods.add(new Food(food.getName(), food.getPrice()));
+        foods.add(food);
 
     }
 
