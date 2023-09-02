@@ -43,6 +43,8 @@ class FoodStandTest {
         Assertions.assertThrows(IllegalArgumentException.class,()->foodStand.delete(new Food("양파",200)));
     }
     @Test
-    void amount() {
+    @DisplayName("foodStand amount() Method Test")
+    void amountFoodStandTest() {
+
     }
 }
