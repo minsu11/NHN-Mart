@@ -41,7 +41,7 @@ class CustomerTest {
 
     @Test
     @DisplayName("Customer bring() Method Test")
-    void bring() {
+    void bringCustomerTest() {
         BuyList buyList = new BuyList();
         buyList.add("양파 2");
         Customer customer = new Customer(buyList);
@@ -52,6 +52,7 @@ class CustomerTest {
     }
 
     @Test
+
     void pickFoods() {
 
     }
