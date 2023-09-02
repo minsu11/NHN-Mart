@@ -14,8 +14,8 @@ class BuyListTest {
     void addTest() {
         BuyList buyList = new BuyList();
         buyList.add("양파 2");
-        Assertions.assertEquals(buyList.getItems().get(0).getName(),"양파");
-        Assertions.assertEquals(buyList.getItems().get(0).getAmount(),2);
+        Assertions.assertEquals("양파",buyList.getItems().get(0).getName());
+        Assertions.assertEquals(2,buyList.getItems().get(0).getAmount());
 
     }
     @Test

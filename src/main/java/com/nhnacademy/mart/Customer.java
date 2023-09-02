@@ -11,22 +11,30 @@ public class Customer {
     // 고객 장바구니
     private Basket basket;
     private int money = 2_0000;
+
     public Customer(BuyList buyList) {
+//        logger.trace("Customer 생성자 생성");
+
         this.buyList = buyList;
     }
 
     // 돈을 초과하는 상품 구매 test하기 위한 생성자
+
     public Customer(BuyList buyList, int money){
-        this.buyList =buyList;
+
+        this.buyList = buyList;
         this.money = money;
     }
-
     public BuyList getBuyList() {
         return buyList;
     }
 
     public Basket getBasket() {
         return basket;
+    }
+
+    public int getMoney() {
+        return money;
     }
 
     // 장바구니 챙기기
