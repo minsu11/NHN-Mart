@@ -30,6 +30,18 @@ class BuyListTest {
     void negativeAddTest() {
         BuyList buyList = new BuyList();
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add("양파"));
+
+
+
+        //Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add("1 1"));
+    }
+
+    @Test
+    @DisplayName("buyListTest add() Method Negative Test")
+    void parameterNegativeAddTest(){
+        BuyList buyList = new BuyList();
+        Assertions.assertThrows(NumberFormatException.class,()-> buyList.add("2 양파"));
+        Assertions.assertThrows(NumberFormatException.class,()->buyList.add("양파 계란"));
     }
 
     @Test
@@ -44,8 +56,11 @@ class BuyListTest {
     @DisplayName("buyList InnerClass Item Negative Constructor Test")
     void negativeItemConstructorTest(){
         ArrayList<BuyList.Item> items = new ArrayList<>();
-        Assertions.assertThrows(IllegalArgumentException.class,()->
-                items.add(new BuyList.Item("양파",0)));
+        BuyList buyList = new BuyList();
+        //Item에 값을 넣는 방식들
+        Assertions.assertThrows(IllegalArgumentException.class,()->new ArrayList<BuyList.Item>().add(new BuyList.Item("양파",0)));
+        Assertions.assertThrows(IllegalArgumentException.class,()-> buyList.add("양파 0"));
+        Assertions.assertThrows(IllegalArgumentException.class,()->buyList.add("양파 -1"));
 
     }
 }

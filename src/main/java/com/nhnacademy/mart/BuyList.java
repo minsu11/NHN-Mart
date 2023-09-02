@@ -26,10 +26,14 @@ public class BuyList {
             throw new ArrayIndexOutOfBoundsException("빈 값을 넣었습니다.");
         }
         // 이름 또는 수량을 넣지 않은 경우
-        if (str.length() % 2 != 0) {
-            throw new ArrayIndexOutOfBoundsException("이름 또는 수량을 입력하지 않았습니다.");
+        if (list.length % 2 != 0) {
+            throw new ArrayIndexOutOfBoundsException("이름 또는 수량을 잘못 입력했습니다");
         }
-
+        try{
+            Integer.parseInt(list[1]);
+        } catch (NumberFormatException e){
+            throw new NumberFormatException("입력을 잘못했습니다.");
+        }
         for (int i = 0; i < list.length; i += 2) {
             int idx = i % 2 == 0 ? i : i + 1;
             int num = Integer.valueOf(list[idx + 1]);
