@@ -29,6 +29,7 @@ public class BuyList {
         if (str.length() % 2 != 0) {
             throw new ArrayIndexOutOfBoundsException("이름 또는 수량을 입력하지 않았습니다.");
         }
+
         for (int i = 0; i < list.length; i += 2) {
             int idx = i % 2 == 0 ? i : i + 1;
             int num = Integer.valueOf(list[idx + 1]);
@@ -43,6 +44,9 @@ public class BuyList {
         private final int amount;
 
         public Item(String name, int amount) {
+            if(amount <=0 ){
+                throw new IllegalArgumentException("입력한 수량이 0이거나 음수입니다.");
+            }
             this.name = name;
             this.amount = amount;
         }
