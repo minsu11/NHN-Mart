@@ -40,12 +40,20 @@ class CustomerTest {
     }
 
     @Test
+    @DisplayName("Customer bring() Method Test")
     void bring() {
-
+        BuyList buyList = new BuyList();
+        buyList.add("양파 2");
+        Customer customer = new Customer(buyList);
+        Basket basket = new Basket();
+        basket.add(new Food("양파",1000));
+        customer.bring(basket);
+        Assertions.assertEquals(basket, customer.getBasket());
     }
 
     @Test
     void pickFoods() {
+
     }
 
     @Test

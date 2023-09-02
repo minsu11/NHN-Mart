@@ -46,8 +46,6 @@ public class Customer {
 
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
-//
-
         for (int i = 0; i < buyList.getItems().size(); i++) {
             for (int j = 0; j < buyList.getItems().get(i).getAmount(); j++) {
                 logger.trace("{},{}", buyList.getItems().get(i).getName(), foodStand.getFoods().get(j).getName());
