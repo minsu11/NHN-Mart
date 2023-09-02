@@ -7,8 +7,11 @@ import java.util.Scanner;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 class CustomerTest {
+    private static final Logger logger = LoggerFactory.getLogger(Customer.class);
 
     @Test
     @DisplayName("Customer Constructor Test")
@@ -52,10 +55,24 @@ class CustomerTest {
     }
 
     @Test
+    @DisplayName("Customer pickFoods Method Test")
+    void pickFoodsCustomerTest() {
+        FoodStand foodStand = new FoodStand();
+        BuyList buyList = new BuyList();
 
-    void pickFoods() {
+        foodStand.add(new Food("양파", 1000));
+        foodStand.add(new Food("양파", 1000));
+        foodStand.add(new Food("양파", 1000));
+        buyList.add("양파 2");
 
+        Customer customer =new Customer(buyList);
+        customer.bring(new Basket());
+        customer.pickFoods(foodStand);
+        //logger.trace("{},{}",customer.getBasket(),buyList.getItems());
+        for(int i =0;i<customer.getBuyList().getItems().size();i++)
+            Assertions.assertEquals(customer.getBasket().getFoods().get(i).getName(), buyList.getItems().get(i).getName());
     }
+
 
     @Test
     @DisplayName("payTox 실패")
