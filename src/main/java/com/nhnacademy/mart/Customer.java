@@ -20,13 +20,14 @@ public class Customer {
 
     // 돈을 초과하는 상품 구매 test하기 위한 생성자
 
-    public Customer(BuyList buyList, int money){
-        if(money <= 0){
+    public Customer(BuyList buyList, int money) {
+        if (money <= 0) {
             throw new IllegalArgumentException("보유한 돈의 입력이 0이거나 음수입니다.");
         }
         this.buyList = buyList;
         this.money = money;
     }
+
     public BuyList getBuyList() {
         return buyList;
     }
@@ -46,10 +47,15 @@ public class Customer {
 
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
+        logger.trace("{},{}", foodStand.getFoods().size(), buyList.getItems().size());
         for (int i = 0; i < buyList.getItems().size(); i++) {
             for (int j = 0; j < buyList.getItems().get(i).getAmount(); j++) {
                 logger.trace("{},{}", buyList.getItems().get(i).getName(), foodStand.getFoods().get(j).getName());
-                if (buyList.getItems().get(i).getName().equals(foodStand.getFoods().get(i).getName()) ){
+                if(foodStand.getFoods().size()<buyList.getItems().get(i).getAmount()){
+                    logger.trace("{} 재고가 부족합니다.",foodStand.getFoods().get(i).getName());
+                    throw new IndexOutOfBoundsException("재고가 부족합니다.");
+                }
+                if (buyList.getItems().get(i).getName().equals(foodStand.getFoods().get(i).getName())) {
                     basket.add(new Food(String.valueOf(buyList.getItems().get(i).getName()), foodStand.getFoods().get(i).getPrice()));
                     logger.trace("trace  log = {}", foodStand.getFoods().get(i).getName());
                     foodStand.delete(foodStand.getFoods().get(i));

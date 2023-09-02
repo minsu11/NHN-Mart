@@ -73,7 +73,20 @@ class CustomerTest {
             Assertions.assertEquals(customer.getBasket().getFoods().get(i).getName(), buyList.getItems().get(i).getName());
     }
 
+    @Test
+    @DisplayName("outOfStockCustomer pickFoods Method Test")
+    void outOfStockPickFoodsCustomerTest() {
+        FoodStand foodStand = new FoodStand();
+        BuyList buyList = new BuyList();
 
+        foodStand.add(new Food("양파", 1000));
+        buyList.add("양파 2");
+
+        Customer customer =new Customer(buyList);
+        customer.bring(new Basket());
+        //logger.trace("{},{}",customer.getBasket(),buyList.getItems());
+        Assertions.assertThrows(IndexOutOfBoundsException.class,()->customer.pickFoods(foodStand));
+    }
     @Test
     @DisplayName("payTox 실패")
     void payTox() {
