@@ -14,7 +14,6 @@ public class Counter {
         for(int i = 0; i<basket.getFoods().size();i++){
            // logger.trace("debug {}",basket.getFoods().size());
             result += basket.getFoods().get(i).getPrice();
-            System.out.println(basket.getFoods().size());
 
         }
         return result;
