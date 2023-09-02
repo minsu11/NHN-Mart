@@ -12,9 +12,6 @@ public class NhnMart {
 
     private final FoodStand foodStand = new FoodStand();
 
-    public FoodStand getFoodStand() {
-        return foodStand;
-    }
 
     public void prepareMart() {
         fillFoodStand();
@@ -34,20 +31,17 @@ public class NhnMart {
         for (int i = 0; i < 20; i++) {
             foodStand.add(new Food("사과", 2_000));
         }
-        // test용 물품 추가
-        for (int i =0; i < 5; i++){
-            foodStand.add(new Food("장난감", 25_000));
-        }
+
     }
 
     public Basket provideBasket() {
         return new Basket();
     }
 
-    // 음식 담기
-
-    // 음식 계산
     public  Counter getCounter() {
         return new Counter();
+    }
+    public FoodStand getFoodStand() {
+        return foodStand;
     }
 }

@@ -89,6 +89,22 @@ class CustomerTest {
     }
 
     @Test
+    @DisplayName("items Not On The FoodStand Customer pickFoods Method Test")
+    void itemNotFoodStandPickFoodsCustomerTest() {
+        FoodStand foodStand = new FoodStand();
+        BuyList buyList = new BuyList();
+
+        foodStand.add(new Food("양파", 1000));
+        buyList.add("장난감 2");
+
+        Customer customer =new Customer(buyList);
+        customer.bring(new Basket());
+        //logger.trace("{},{}",customer.getBasket(),buyList.getItems());
+        Assertions.assertThrows(IllegalArgumentException.class,()->customer.pickFoods(foodStand));
+    }
+
+
+    @Test
     @DisplayName("Customer payTox() Method Test")
     void payToxCustomerTest() {
         Basket basket = new Basket();
