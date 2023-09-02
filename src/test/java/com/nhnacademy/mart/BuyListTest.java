@@ -18,10 +18,17 @@ class BuyListTest {
 
     }
     @Test
-    @DisplayName("buyListTest add() Method Negative Test")
+    @DisplayName("buyListTest add() Method Empty Test")
     void emptyAddTest() {
         BuyList buyList = new BuyList();
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add(""));
+    }
+
+    @Test
+    @DisplayName("buyListTest add() Method Negative Test")
+    void negativeAddTest() {
+        BuyList buyList = new BuyList();
+        Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add("양파"));
     }
 
 }
