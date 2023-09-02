@@ -61,6 +61,7 @@ class BuyListTest {
         Assertions.assertThrows(IllegalArgumentException.class,()->new ArrayList<BuyList.Item>().add(new BuyList.Item("양파",0)));
         Assertions.assertThrows(IllegalArgumentException.class,()-> buyList.add("양파 0"));
         Assertions.assertThrows(IllegalArgumentException.class,()->buyList.add("양파 -1"));
+        Assertions.assertThrows(IllegalArgumentException.class,()->buyList.add(" -1"));
 
     }
 }

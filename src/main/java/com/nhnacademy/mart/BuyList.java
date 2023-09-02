@@ -48,8 +48,11 @@ public class BuyList {
         private final int amount;
 
         public Item(String name, int amount) {
-            if(amount <=0 ){
+            if(amount <=0){
                 throw new IllegalArgumentException("입력한 수량이 0이거나 음수입니다.");
+            }
+            if(name.isEmpty()){
+                throw  new IllegalArgumentException("상품 명이 비었습니다.");
             }
             this.name = name;
             this.amount = amount;

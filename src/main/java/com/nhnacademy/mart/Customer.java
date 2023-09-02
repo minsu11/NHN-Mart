@@ -36,16 +36,7 @@ public class Customer {
 
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
-//        for(BuyList.Item buyListItem : buyList.getItems()){
-//            for(Food foodStandItem : foodStand.getFoods()){
-//                if(foodStandItem.getName().equals(buyListItem.getName())&& buyListItem.getAmount() < foodStand.amount(foodStandItem)){
-//                    logger.trace("trace debug if 문 후");
-//                    basket.add(foodStandItem);
-//                    foodStand.delete(foodStandItem);
 //
-//                }
-//            }
-//        }
 
         for (int i = 0; i < buyList.getItems().size(); i++) {
             for (int j = 0; j < buyList.getItems().get(i).getAmount(); j++) {
@@ -57,13 +48,6 @@ public class Customer {
 
                 }
             }
-//            for (int j = 0; j < buyList.getItems().get(i).getAmount(); j++) {
-//
-//                if (buyList.getItems().get(i).getName().equals( foodStand.getFoods().get(j).getName())) {
-//
-//                    foodStand.delete(foodStand.getFoods().get(i));
-//                }
-//            }
         }
 
     }
@@ -73,12 +57,6 @@ public class Customer {
 
         int result = counter.pay(basket);
 
-//
-//        for(int i =0;i<buyList.getItems().size();i++){
-//            for(int j =0; j< buyList.getItems().get(i).getAmount(); j++){
-//               result += counter.pay(new Food(basket.getFoods().get(i).getName(),basket.getFoods().get(i).getPrice()),j);
-//            }
-//        }
         if (this.money - result < 0) {
             throw new IllegalArgumentException("보유한 돈을 초과하였습니다.");
         }
