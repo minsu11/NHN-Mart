@@ -45,6 +45,8 @@ class FoodStandTest {
     @Test
     @DisplayName("foodStand amount() Method Test")
     void amountFoodStandTest() {
-
+        FoodStand foodStand = new FoodStand();
+        foodStand.add(new Food("양파",1000));
+        Assertions.assertEquals(1, foodStand.amount(foodStand.getFoods().get(0)));
     }
 }

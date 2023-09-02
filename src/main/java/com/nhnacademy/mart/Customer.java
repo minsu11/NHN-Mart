@@ -14,6 +14,7 @@ public class Customer {
     public Customer(BuyList buyList) {
         this.buyList = buyList;
     }
+
     // 돈을 초과하는 상품 구매 test하기 위한 생성자
     public Customer(BuyList buyList, int money){
         this.buyList =buyList;
