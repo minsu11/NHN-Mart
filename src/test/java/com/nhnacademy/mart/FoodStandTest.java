@@ -21,8 +21,13 @@ class FoodStandTest {
 
 
     @Test
-    void delete() {
+    @DisplayName("foodStand delete() Method Test")
+    void deleteFoodStandTest() {
+        FoodStand foodStand = new FoodStand();
+        foodStand.add(new Food("양파",1000));
+        foodStand.delete(new Food("양파",1000));
     }
+
 
     @Test
     void amount() {

@@ -20,17 +20,20 @@ public class FoodStand {
 
     // TODO 장바구니에 담은 Food 삭제 구현
     public void delete(Food food) {
-        logger.trace("{}",food.getName());
+        // logger.trace("{}",food.getName());
+        boolean deleteCheck = false;
+
         for (int i = 0; i < foods.size(); i++) {
             if (food.getName() == foods.get(i).getName()) {
-                logger.trace("delete  ");
+                logger.trace("delete");
                 foods.remove(i);
-                break;
-
+                deleteCheck = true;
+                break; // 삭제를 한번만 하기 위해서 break문을 달음
             }
         }
-//        foods.removeIf(item -> item.equals(food.getName()));
-//        foods.remove(0);
+        if(deleteCheck == false){
+            throw new IllegalArgumentException("상품이 진열대에 없습니다.");
+        }
     }
 
     public int amount(Food food){
