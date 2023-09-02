@@ -16,4 +16,12 @@ class CounterTest {
         basket.add(new Food("양파", 1000));
         Assertions.assertEquals(counter.pay(basket), 1000);
     }
+
+    @Test
+    @DisplayName("method pay(empty basket) Test ")
+    void emptyBasketPayTest(){
+        Basket basket = new Basket();
+        Counter counter = new Counter();
+        Assertions.assertThrows(IllegalArgumentException.class,() ->counter.pay(basket));
+    }
 }
