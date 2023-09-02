@@ -1,0 +1,373 @@
+2023-09-01 19:40:46,520 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='양파', price=1000}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='양파', price=1000}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='계란', price=5000}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='계란', price=5000}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='파', price=500}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='파', price=500}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='파', price=500}
+2023-09-01 19:40:46,522 [main] DEBUG c.n.m.Customer [Customer.java:36] - Food{name='사과', price=2000}
+2023-09-01 19:49:14,143 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:49:14,145 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 19:50:42,682 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:50:42,684 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:50:42,684 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:50:42,684 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:51:25,472 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:51:25,474 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:51:25,474 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:51:25,474 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:54:29,085 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='양파', price=1000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='계란', price=5000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='파', price=500}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 19:54:29,088 [main] DEBUG c.n.m.Customer [Customer.java:36] - debug log = Food{name='사과', price=2000}
+2023-09-01 20:43:47,305 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 20:44:36,149 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 20:45:09,771 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,773 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,774 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:09,777 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 20:45:37,926 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,927 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,927 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,928 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,929 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:45:37,932 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 20:46:24,680 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:46:24,682 [main] TRACE c.n.m.Customer [Customer.java:37] - trace debug if 문 후
+2023-09-01 20:54:38,666 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:37] - trace debug if 문 후
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:37] - trace debug if 문 후
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,668 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,669 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,670 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,670 [main] TRACE c.n.m.Customer [Customer.java:35] - trace debug if문 전
+2023-09-01 20:54:38,672 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 20:54:38,673 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 20:54:38,673 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 20:55:03,435 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 20:55:03,436 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 20:55:03,439 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 20:55:03,440 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 20:55:03,440 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:01:34,880 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:01:34,885 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:01:34,886 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:01:34,886 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:01:34,891 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:01:34,893 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:01:34,893 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:02:26,896 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:09:30,780 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:09:30,786 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:09:30,786 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:09:30,786 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:09:30,793 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:09:30,794 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:09:30,794 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:10:21,193 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:10:21,198 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:10:21,198 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:10:21,198 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:10:21,205 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:10:21,206 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:10:21,206 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:11:41,353 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:11:41,359 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:19:14,685 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:19:14,690 [main] TRACE c.n.m.Customer [FoodStand.java:30] - trace debug 
+2023-09-01 21:19:38,338 [main] TRACE c.n.m.Customer [Customer.java:36] - trace debug if 문 후
+2023-09-01 21:19:38,342 [main] TRACE c.n.m.Customer [FoodStand.java:27] - trace debug 
+2023-09-01 21:20:38,089 [main] DEBUG c.n.m.Customer [Customer.java:47] - debug log = Food{name='양파', price=1000}
+2023-09-01 21:20:38,094 [main] TRACE c.n.m.Customer [FoodStand.java:27] - trace debug 
+2023-09-01 21:20:38,094 [main] DEBUG c.n.m.Customer [Customer.java:47] - debug log = Food{name='양파', price=1000}
+2023-09-01 21:20:38,094 [main] TRACE c.n.m.Customer [FoodStand.java:27] - trace debug 
+2023-09-01 21:20:38,095 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:20:38,095 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 1
+2023-09-01 21:21:31,378 [main] DEBUG c.n.m.Customer [Customer.java:48] - debug log = Food{name='양파', price=1000}
+2023-09-01 21:21:31,382 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:21:31,383 [main] DEBUG c.n.m.Customer [Customer.java:48] - debug log = Food{name='양파', price=1000}
+2023-09-01 21:21:31,383 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:21:31,384 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:21:31,384 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:21:31,384 [main] TRACE c.n.m.Customer [Counter.java:15] - debug 2
+2023-09-01 21:22:59,734 [main] DEBUG c.n.m.Customer [Customer.java:49] - debug log = Food{name='양파', price=1000}
+2023-09-01 21:22:59,738 [main] TRACE c.n.m.Customer [FoodStand.java:25] - trace debug 
+2023-09-01 21:24:31,802 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:25:03,514 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:26:00,150 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:26:43,728 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:27:31,617 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:28:27,469 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:29:21,878 [main] TRACE c.n.m.Customer [Customer.java:46] - if문 전 tracce 
+2023-09-01 21:29:21,885 [main] TRACE c.n.m.Customer [Customer.java:46] - if문 전 tracce 
+2023-09-01 21:29:21,892 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:29:58,260 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:29:58,265 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:29:58,265 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:29:58,271 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:30:42,039 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:30:42,043 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:30:42,044 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:30:42,050 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:31:12,306 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:31:12,312 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:31:12,313 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:31:12,320 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:32:44,524 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:32:44,530 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:32:44,531 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:32:44,538 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:33:03,766 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:33:03,773 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:33:03,773 [main] TRACE c.n.m.Customer [Customer.java:47] - if문 전 tracce 
+2023-09-01 21:33:55,364 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:33:55,368 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:33:55,369 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:33:55,370 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:34:25,645 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:34:25,652 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:34:25,654 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:34:25,654 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:34:25,661 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:35:37,480 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:35:37,487 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:35:37,488 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:35:37,489 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:35:37,495 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:36:51,949 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:36:51,955 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:36:51,956 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:36:51,957 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:36:51,963 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:38:17,599 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:38:17,605 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:38:17,606 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:38:17,606 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:38:17,606 [main] TRACE c.n.m.Customer [Customer.java:58] - if문 전 tracce 
+2023-09-01 21:38:17,606 [main] TRACE c.n.m.Customer [Customer.java:58] - if문 전 tracce 
+2023-09-01 21:38:17,612 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 0
+2023-09-01 21:39:13,451 [main] TRACE c.n.m.Customer [Customer.java:45] - 2중 반복문 전 trace
+2023-09-01 21:39:13,456 [main] TRACE c.n.m.Customer [Customer.java:46] - 1
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [Customer.java:52] - trace  log = 양파
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [Customer.java:48] - if문 전 tracce 
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [Customer.java:58] - if문 전 tracce 
+2023-09-01 21:39:13,457 [main] TRACE c.n.m.Customer [Customer.java:61] - trace  log = 양파
+2023-09-01 21:39:13,458 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:39:13,458 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:39:13,458 [main] TRACE c.n.m.Customer [Customer.java:58] - if문 전 tracce 
+2023-09-01 21:39:13,463 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:40:04,936 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:40:04,943 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:40:04,943 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:40:04,943 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:40:04,943 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:40:04,948 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:41:25,876 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:41:25,882 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:41:25,882 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:41:25,882 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:41:25,887 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:43:40,542 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:43:40,549 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:43:40,549 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:43:40,556 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:44:31,996 [main] TRACE c.n.m.Customer [Customer.java:46] - 반복문 갯수: 2
+2023-09-01 21:44:32,001 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:44:32,001 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:44:32,001 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:44:32,001 [main] TRACE c.n.m.Customer [Customer.java:46] - 반복문 갯수: 2
+2023-09-01 21:44:32,006 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:45:41,800 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,양파
+2023-09-01 21:45:41,807 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:45:41,808 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:45:41,808 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:45:41,808 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,계란
+2023-09-01 21:45:41,815 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 1
+2023-09-01 21:46:28,523 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,양파
+2023-09-01 21:46:28,530 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,계란
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:46:28,531 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:46:28,532 [main] TRACE c.n.m.Customer [FoodStand.java:26] - trace debug 
+2023-09-01 21:46:28,538 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 4
+2023-09-01 21:47:58,376 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,양파
+2023-09-01 21:47:58,383 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:47:58,383 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:47:58,384 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:47:58,384 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,계란
+2023-09-01 21:47:58,384 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:47:58,384 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:47:58,384 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:47:58,391 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
+2023-09-01 21:48:10,965 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,양파
+2023-09-01 21:48:10,972 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:48:10,972 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,계란
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,973 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,974 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:48:10,974 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:48:10,974 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:48:10,974 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:10,980 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 4
+2023-09-01 21:48:48,317 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,양파
+2023-09-01 21:48:48,325 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:48:48,325 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [Customer.java:46] - 양파,계란
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 양파
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:48:48,326 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:48,327 [main] TRACE c.n.m.Customer [Customer.java:46] - 계란,계란
+2023-09-01 21:48:48,327 [main] TRACE c.n.m.Customer [Customer.java:49] - trace  log = 계란
+2023-09-01 21:48:48,327 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 계란
+2023-09-01 21:48:48,327 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 21:48:48,333 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 4
+2023-09-01 22:33:45,448 [main] TRACE c.n.m.Customer [Customer.java:50] - 양파,양파
+2023-09-01 22:33:45,455 [main] TRACE c.n.m.Customer [Customer.java:53] - trace  log = 양파
+2023-09-01 22:33:45,455 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 22:33:45,455 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 22:33:45,456 [main] TRACE c.n.m.Customer [Customer.java:50] - 양파,계란
+2023-09-01 22:33:45,456 [main] TRACE c.n.m.Customer [Customer.java:53] - trace  log = 양파
+2023-09-01 22:33:45,456 [main] TRACE c.n.m.Customer [FoodStand.java:23] - 양파
+2023-09-01 22:33:45,456 [main] TRACE c.n.m.Customer [FoodStand.java:26] - delete  
+2023-09-01 22:33:45,462 [main] TRACE c.n.m.Customer [Counter.java:13] - trace 2
