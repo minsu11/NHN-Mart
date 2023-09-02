@@ -1,0 +1,22 @@
+
+’
+java:S1319,"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(÷åşÿÿÿÿ8‘§º…¥1
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(î¦êùÿÿÿÿ8²åº…¥1
+N
+java:S3416",Update this logger to use "FoodStand.class".(¿¨ì‹şÿÿÿÿ8“§º…¥1
+T
+java:S1135"2Complete the task associated to this TODO comment.(Í÷óñøÿÿÿÿ8•§º…¥1
+O
+java:S1135"2Complete the task associated to this TODO comment.(Á°šâ8•§º…¥1
+X	java:S125 "<This block of commented-out lines of code should be removed.(¼Ïı”8–§º…¥1
+M
+java:S1172$"+Remove this unused method parameter "food".(×¯ôŞøÿÿÿÿ8–§º…¥1
+G
+java:S1481&"*Remove this unused "food1" local variable.(ŠÅ¼¤8–§º…¥1
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8–§º…¥1
+L
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ8—§º…¥1
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8—§º…¥1
