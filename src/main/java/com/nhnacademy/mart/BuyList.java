@@ -19,8 +19,14 @@ public class BuyList {
     private final ArrayList<Item> items = new ArrayList<>();
 
     // TODO add 메서드 생성
+    // 구매할 물품을 작성 할 때
     public void add(String str){
         String[] list = str.split(" ");
+        // 빈 값을 넣은 경우
+        if(str.isEmpty()){
+            throw new ArrayIndexOutOfBoundsException("빈 값을 넣었습니다.");
+        }
+
         for (int i = 0; i < list.length; i+=2){
             int idx = i %2 == 0? i:i+1;
             int num = Integer.valueOf(list[idx+1]);
