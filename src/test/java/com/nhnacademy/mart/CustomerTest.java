@@ -31,7 +31,13 @@ class CustomerTest {
         Assertions.assertEquals(2,customer.getBuyList().getItems().get(0).getAmount());
         Assertions.assertEquals(1000,customer.getMoney());
     }
-
+    @Test
+    @DisplayName("Money Negative Different Customer Constructor Test")
+    void moneyNegativeCustomerConstructorTest(){
+        BuyList buyList = new BuyList();
+        buyList.add("양파 2");
+        Assertions.assertThrows(IllegalArgumentException.class,()->new Customer(buyList,-1));
+    }
 
     @Test
     void bring() {

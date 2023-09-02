@@ -21,7 +21,9 @@ public class Customer {
     // 돈을 초과하는 상품 구매 test하기 위한 생성자
 
     public Customer(BuyList buyList, int money){
-
+        if(money <= 0){
+            throw new IllegalArgumentException("보유한 돈의 입력이 0이거나 음수입니다.");
+        }
         this.buyList = buyList;
         this.money = money;
     }
