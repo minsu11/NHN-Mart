@@ -47,7 +47,6 @@ public class Customer {
 
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
-        logger.trace("{},{}", foodStand.getFoods().size(), buyList.getItems().size());
         for (int i = 0; i < buyList.getItems().size(); i++) {
             for (int j = 0; j < buyList.getItems().get(i).getAmount(); j++) {
                 logger.trace("{},{}", buyList.getItems().get(i).getName(), foodStand.getFoods().get(j).getName());
@@ -55,6 +54,7 @@ public class Customer {
                     logger.trace("{} 재고가 부족합니다.",foodStand.getFoods().get(i).getName());
                     throw new IndexOutOfBoundsException("재고가 부족합니다.");
                 }
+
                 if (buyList.getItems().get(i).getName().equals(foodStand.getFoods().get(i).getName())) {
                     basket.add(new Food(String.valueOf(buyList.getItems().get(i).getName()), foodStand.getFoods().get(i).getPrice()));
                     logger.trace("trace  log = {}", foodStand.getFoods().get(i).getName());

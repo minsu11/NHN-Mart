@@ -87,15 +87,32 @@ class CustomerTest {
         //logger.trace("{},{}",customer.getBasket(),buyList.getItems());
         Assertions.assertThrows(IndexOutOfBoundsException.class,()->customer.pickFoods(foodStand));
     }
-    @Test
-    @DisplayName("payTox 실패")
-    void payTox() {
 
+    @Test
+    @DisplayName("Customer payTox() Method Test")
+    void payToxCustomerTest() {
+        Basket basket = new Basket();
+        BuyList buyList = new BuyList();
+        FoodStand foodStand = new FoodStand();
+        foodStand.add(new Food("양파", 1000));
+        buyList.add("양파 1");
+        Customer customer = new Customer(buyList);
+        customer.bring(basket);
+        customer.pickFoods(foodStand);
+        customer.payTox(new Counter());
     }
 
     @Test
     @DisplayName("보유한 돈 이상으로 결제")
-    void overMoneyPayTox() {
-
+    void overMoneyPayToxCustomerTest() {
+        Basket basket = new Basket();
+        BuyList buyList = new BuyList();
+        FoodStand foodStand = new FoodStand();
+        foodStand.add(new Food("양파", 1500));
+        buyList.add("양파 1");
+        Customer customer = new Customer(buyList,1000);
+        customer.bring(basket);
+        customer.pickFoods(foodStand);
+        Assertions.assertThrows(IllegalArgumentException.class,() -> customer.payTox(new Counter()));
     }
 }
