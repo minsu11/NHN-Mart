@@ -27,8 +27,8 @@ class FoodStandTest {
     }
 
     @Test
-    @DisplayName("negative FoodStand delete() Method Test")
-    void deleteNegativeFoodStandTest() {
+    @DisplayName("FoodStand delete() Method Wrong Test")
+    void deleteFoodStandWrongTest() {
         FoodStand foodStand = new FoodStand();
         foodStand.add(new Food("양파", 1000));
         Assertions.assertThrows(IllegalArgumentException.class, () -> foodStand.delete(new Food("소금", 1000)));
