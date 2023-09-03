@@ -26,19 +26,15 @@ class BuyListTest {
     }
 
     @Test
-    @DisplayName("buyListTest add() Method Negative Test")
-    void negativeAddTest() {
+    @DisplayName("buyListTest add() Method Wrong Test")
+    void addWrongTest() {
         BuyList buyList = new BuyList();
         Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add("양파"));
-
-
-
-        //Assertions.assertThrows(ArrayIndexOutOfBoundsException.class,()->buyList.add("1 1"));
     }
 
     @Test
-    @DisplayName("buyListTest add() Method Negative Test")
-    void parameterNegativeAddTest(){
+    @DisplayName("buyListTest add() Method Prarmeter Wrong Test ")
+    void parameterWrongAddTest(){
         BuyList buyList = new BuyList();
         Assertions.assertThrows(NumberFormatException.class,()-> buyList.add("2 양파"));
         Assertions.assertThrows(NumberFormatException.class,()->buyList.add("양파 계란"));
@@ -53,7 +49,7 @@ class BuyListTest {
     }
 
     @Test
-    @DisplayName("buyList InnerClass Item Negative Constructor Test")
+    @DisplayName("buyList InnerClass Item Amount Negative and Zero Constructor Test")
     void negativeItemConstructorTest(){
         ArrayList<BuyList.Item> items = new ArrayList<>();
         BuyList buyList = new BuyList();
